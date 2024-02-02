@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../../../project1-assignment1"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../css"
+		},
+		{
+			"path": "../img"
+		},
+		{
+			"path": "../js"
+		},
+		{
+			"path": "../js/vendor"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "project1-assignment1"
+	}
+}
