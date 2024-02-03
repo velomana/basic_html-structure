@@ -1,0 +1,67 @@
+html{
+    -webkit-text-size-adjust: 100%;
+}
+
+.Main{
+    display:block;
+}
+
+body {
+    margin: 0;
+  }
+
+.minions{
+    display:grid;
+    grid-template-columns:1fr;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.minions:hover{
+    opacity:0.5;
+}
+
+.metro{
+font-family: Roboto,Arial;
+font-size: 700;
+color: rgb(47, 44, 44);
+}
+
+/*section service controle */
+.service_container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+    border: 10px;
+    border-color: red;
+}
+.light_controler{
+    grid-row: span 1;
+    width:40%;
+    border: 4px;
+    border-color:5px solid orange; 
+}
+
+.image_controler{
+    grid-row: span 1;
+    width:40%;
+    color:green;
+    border: 2px;
+    border-color:green;
+}
+
+.setting_controler{
+    grid-row: span 1;
+    width:40%;
+    color:red;
+    border: 2px;
+    border-color:red;
+}
+
+.pencil_controler{
+    grid-row: span 1;
+    width:40%;
+    color:blue;
+    border: 2px;
+    border-color:blue;
+}
